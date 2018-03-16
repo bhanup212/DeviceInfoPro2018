@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="latestdeviceinfpro2018.pasupula.bhanupro.deviceinfopro.RootFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+
+        android:padding="15dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/linearlayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffd8ab"
+        android:paddingBottom="20dp">
+
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:id="@+id/root1"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/root_access"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="ROOT ACCESS"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/roo_access_txt"
+                android:text="Device is not rooted"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:id="@+id/root2"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/super_user"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="SUPER USER"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/super_user_txt"
+                android:text="SU not found"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:id="@+id/root3"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/busy_box"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="BUSY BOX"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/busy_box_txt"
+                android:text="SU not found"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:id="@+id/root4"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/path"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="PATH"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/path_txt"
+                android:text="Path not found"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

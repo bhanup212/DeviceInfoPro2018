@@ -1,0 +1,436 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="latestdeviceinfpro2018.pasupula.bhanupro.deviceinfopro.HardwareFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+
+        android:padding="15dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/linearlayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#cbddff"
+        android:paddingBottom="20dp">
+
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:id="@+id/hardware19"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/user"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="USER"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_text"
+                android:text="unknown"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:id="@+id/hardware1"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/bootloader"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="BOOTLOADER"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/bootloader_txt"
+                android:text="unknown"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:id="@+id/hardware2"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/hardware"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="HARDWARE"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/hardware_txt"
+                android:text="unknown"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:id="@+id/hardware3"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/board"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="BOARD"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/board_txt"
+                android:text="unknown"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:id="@+id/hardware4"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/fingerprint"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="FINGERPRINT"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fingerprint_txt"
+                android:text="unknown"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:id="@+id/hardware5"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/cpu_one"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="CPU_AB1"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/cpu_one_txt"
+                android:text="unknown"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:id="@+id/hardware6"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/cpu_two"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="CPU_AB2"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/cpu_two_txt"
+                android:text="unknown"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:id="@+id/hardware7"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/host"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="HOST"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/host_txt"
+                android:text="unknown"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:id="@+id/hardware8"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="ID"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_txt"
+                android:text="unknown"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:id="@+id/hardware9"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tags"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="TAGS"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tags_txt"
+                android:text="unknown"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:id="@+id/hardware10"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="TYPE"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/type_txt"
+                android:text="unknown"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:id="@+id/hardware11"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/codename"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="CODENAME"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/codename_txt"
+                android:text="unknown"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:id="@+id/hardware12"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/incremental"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="INCREMENTAL"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/incremental_txt"
+                android:text="unknown"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:id="@+id/hardware13"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/sdk_int"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="SDK_INT"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/sdk_int_txt"
+                android:text="unknown"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:id="@+id/hardware18"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/preview_sdk"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="PREVIEW_SDK_INT"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/preview_sdk_int_txt"
+                android:text="unknown"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:id="@+id/hardware14"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/radio"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="RADIO"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio_txt"
+                android:text="unknown"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:id="@+id/hardware15"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/release"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="RELEASE"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/release_txt"
+                android:text="unknown"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:id="@+id/hardware16"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/base_os"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="BASE OS"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/base_os_txt"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="unknown" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:id="@+id/hardware20"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp">
+
+            <TextView
+                android:id="@+id/security_patch"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="SECURITY PATCH"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/security_patch_txt"
+                android:text="unknown"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
